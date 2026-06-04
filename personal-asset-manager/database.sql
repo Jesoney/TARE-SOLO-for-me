@@ -59,11 +59,11 @@ INSERT INTO categories (name, icon, color) VALUES
 
 -- 插入管理员账号 (密码: admin123)
 INSERT INTO users (username, password, email, role) VALUES
-('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin@example.com', 1);
+('admin', '$2y$12$ak15VG2yLnmYBjwb1EZ4nevmcTTR.Uqx2ZBt2U.jNlLtvrVt3JmJC', 'admin@example.com', 1);
 
 -- 插入测试用户 (密码: user123)
 INSERT INTO users (username, password, email, role) VALUES
-('testuser', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'test@example.com', 0);
+('testuser', '$2y$12$DmMLT/l/ChEZrLy8bGrgr.ssC4v73iQhU7zDEeZvsLGRc5mbxskoW', 'test@example.com', 0);
 
 -- 插入测试资产数据
 INSERT INTO assets (user_id, category_id, name, amount, description, purchase_date) VALUES
